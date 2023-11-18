@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: monospace, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#introduction {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 5rem auto;
+    margin-top: -10rem;
+    padding-top: 20rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,32,1) 50%, rgba(34,34,32,1) 100%);
+    z-index: 1;
+}
+
+#introduction p {
+    color: #F0EAD6;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #005254;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px black;
+    z-index: 1;
+}
+
+#introduction ul {
+    list-style: none;
+}
+
+#introduction ul > li {
+    color: #F0EAD6;
+    float: right;
+    margin: 25px;
+    margin-top: 1px;
+    margin-bottom: 22px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#introduction ul li > a {
+    text-decoration: none;
+    color: white;
+}
+
+#introduction-div {
+    width: 100%;
+}
+
+#introduction h1 {
+    font-weight: bold;
+    font-size: 70px;
+    white-space: nowrap;
+    color: #F0EAD6;
+}
+
+#introduction h3 {
+    font-weight: bold;
+    font-size: 25px;
+    white-space: nowrap;
+    color: darkred;
+    margin-top: -2rem;
+}
+
+#introduction h1, h3 {
+    text-align: center;
+}
+
+#projects-container {
+    background: rgb(10,198,195);
+    background: linear-gradient(0deg, rgba(10,198,195,1) 0%, rgba(59,146,164,1) 100%, rgba(24,232,255,1) 100%);
+    position: absolute;
+    top: 45rem;
+    width: 100%;
+    padding: 5rem;
+}
+
+#projects-container h2 {
+    text-align: center;
+    font-size: 70px;
+    color: #F0EAD6;
+    margin: 1rem auto;
+}
+
+#line-seperator {
+    border-bottom: 3px solid #F0EAD6;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    width: 50%;
+}
+
+#projects-container-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+#projects-container-div img{
+    height: 75%;
+    max-width: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+#project-link p {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: gray;
+    padding: 1rem;
+    margin-top: -0.5rem;
+}
+
+#project-link {
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    outline: medium none;
+    margin: 2rem;
+}
+
+#hover-effect:hover{
+    transform: scale(1.1);
+}
+
+#hover-effect {
+    max-width: 100%;
+    height: 140%;
+    scale: 1.2;
+    transition: transform .5s ease-out;
+    padding-bottom: 10rem;
+}
+
+#links {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,32,1) 50%, rgba(34,34,32,1) 100%);
+    position: absolute;
+    top: 130rem;
+    width: 100%;
+    height: 100%;
+}
+
+#links h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    white-space: nowrap;
+    color: #F0EAD6;
+    margin-top: 12rem;
+}
+
+#links p {
+    color: #F0EAD6;
+    text-align: center;
+    font-size: 25px;
+}
+
+#links ul {
+    list-style: none;
+    margin: auto;
+}
+
+#links li {
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    left: 25rem;
+    top: 3rem;
+}
+
+#links a {
+    text-decoration: none;
+    color: #F0EAD6;
+}
+
+#link-hover:hover {
+    transform: scale(1.3);
+}
+
+#link-hover{
+    transition: .5s ease-out;
+}
+
