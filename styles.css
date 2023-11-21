@@ -205,3 +205,90 @@ body {
     transition: .5s ease-out;
 }
 
+@media only screen and (max-width: 412px) {
+    #navbar {
+      right: 0;
+    }
+    #introduction {
+       position: absolute;
+       top: 0;
+       left: 0;
+       padding-left: 2rem;
+       padding-right: 2rem;
+       width: 200%;
+       height: auto;
+    }
+    #projects-container {
+        width: 200%;
+        padding-top: 13rem;
+    }
+    #projects-container-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3rem;
+        padding-top: 4rem;
+    }
+    #links {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,32,1) 50%, rgba(34,34,32,1) 100%);
+        position: absolute;
+        top: 321rem;
+        width: 200%;
+        height: 75%;
+
+    }
+    #links li {
+        text-align: center;
+        margin: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        position: relative;
+        left: 5rem;
+        top: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    #navbar {
+      right: 0;
+    }
+    #introduction {
+       position: absolute;
+       top: 0;
+       left: 0;
+       padding-left: 2rem;
+       padding-right: 2rem;
+       width: 200%;
+       height: auto;
+    }
+    #projects-container {
+        width: 200%;
+        padding-top: 16rem;
+    }
+    #projects-container-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3rem;
+        padding-top: 4rem;
+    }
+    #links {
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,32,1) 50%, rgba(34,34,32,1) 100%);
+        position: absolute;
+        top: 312rem;
+        width: 200%;
+        height: 90%;
+
+    }
+    #links li {
+        text-align: center;
+        margin: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        position: relative;
+        left: 1rem;
+        top: 3rem;
+    }
+  }
