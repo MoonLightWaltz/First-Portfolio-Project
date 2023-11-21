@@ -263,11 +263,11 @@ body {
        left: 0;
        padding-left: 2rem;
        padding-right: 2rem;
-       width: 215%;
+       width: 220%;
        height: auto;
     }
     #projects-container {
-        width: 215%;
+        width: 220%;
         padding-top: 16rem;
     }
     #projects-container-div{
@@ -281,7 +281,7 @@ body {
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,32,1) 50%, rgba(34,34,32,1) 100%);
         position: absolute;
         top: 312rem;
-        width: 215%;
+        width: 220%;
         height: 90%;
 
     }
