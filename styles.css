@@ -302,9 +302,9 @@ body {
     #links {
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,34,32,1) 50%, rgba(34,34,32,1) 100%);
         position: absolute;
-        top: 328rem;
+        top: 328.5rem;
         width: 215%;
-        height: 80%;
+        height: 100%;
     }
     #links li {
         text-align: center;
